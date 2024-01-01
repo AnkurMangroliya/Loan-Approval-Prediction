@@ -90,7 +90,21 @@ This project includes a CI/CD pipeline using GitHub Actions. The pipeline automa
 
 ## Data Extraction
 
-The dataset used for training the loan approval model was extracted using Python libraries `requests` and `BeautifulSoup`. These tools enabled automated web scraping and data collection from relevant sources, ensuring a robust and diverse dataset for model training.
+The dataset used for training the loan approval model was extracted using Python libraries `requests` and `BeautifulSoup`. These tools enabled automated web scraping and data collection from relevant sources, ensuring a robust and diverse dataset for model training. The extraction process involved:
+
+- Sending HTTP requests to target websites using `requests`.
+- Parsing HTML content with `BeautifulSoup` to extract structured data.
+- Cleaning and preprocessing the extracted data to prepare it for model training.
+
+## Model Training and Development
+
+After data extraction, the following steps were performed to develop the loan approval prediction model:
+
+- **Data Preprocessing:** Handling missing values, encoding categorical variables, and scaling numerical features.
+- **Feature Engineering:** Creating new features to improve model performance.
+- **Model Training:** Training an XGBoost model on the preprocessed dataset.
+- **Model Evaluation:** Evaluating the model using metrics such as accuracy, precision, recall, and F1-score.
+- **Model Deployment:** Deploying the trained model as a Flask web application for real-time predictions.
 
 ## Credits
 
