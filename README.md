@@ -80,14 +80,6 @@ Users can input the following parameters into the web form for loan approval pre
 - The machine learning model used for prediction is based on XGBoost.
 - Feel free to explore and modify the project structure and code to suit your needs.
 
-## Credits
-
-This project was developed by Ankur as part of Machine Learning project
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## CI/CD Pipeline
 
 This project includes a CI/CD pipeline using GitHub Actions. The pipeline automatically runs tests and checks code quality on every push and pull request, ensuring the application remains reliable and maintainable. The workflow is defined in `.github/workflows/python-app.yml` and includes steps to:
@@ -99,4 +91,11 @@ This project includes a CI/CD pipeline using GitHub Actions. The pipeline automa
 ## Data Extraction
 
 The dataset used for training the loan approval model was extracted using Python libraries `requests` and `BeautifulSoup`. These tools enabled automated web scraping and data collection from relevant sources, ensuring a robust and diverse dataset for model training.
-```
+
+## Credits
+
+This project was developed by Ankur as part of Machine Learning project
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
